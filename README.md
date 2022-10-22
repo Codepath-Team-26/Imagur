@@ -44,7 +44,7 @@ When we combine them we will get a final stylized image:
 
 **Required Must-have Stories**
 
-- User logs in to see their feed of past creations.
+- User creates user and logs in to see their saved images.
 - User takes a photo or uploads one from camera feed to be styled.
 - User selects from a predefined list of styles to apply to their image.
 - User can upload their styled image to a database to be saved.
