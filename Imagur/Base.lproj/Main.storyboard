@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wnK-n3-67N">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -44,7 +44,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="275" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tpH-WQ-6zR">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="275" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tpH-WQ-6zR">
                                 <rect key="frame" x="58" y="295" width="275" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="2Cf-oS-Q8D"/>
@@ -53,8 +53,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="----------------     OR     ---------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="802-ET-bah">
-                                <rect key="frame" x="44" y="635" width="303" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----------------     OR     ---------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="802-ET-bah">
+                                <rect key="frame" x="43.666666666666657" y="635" width="303" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,6 +117,7 @@
                         <constraints>
                             <constraint firstItem="61C-8r-iK3" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="129" id="3GF-q9-xee"/>
                             <constraint firstItem="0Ko-TI-mJe" firstAttribute="trailing" secondItem="61C-8r-iK3" secondAttribute="trailing" constant="124" id="3T0-E9-sRk"/>
+                            <constraint firstItem="802-ET-bah" firstAttribute="centerX" secondItem="xD3-sL-NvF" secondAttribute="centerX" id="3jE-74-hzc"/>
                             <constraint firstItem="kYd-7n-q7O" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="58" id="3nA-1E-jIN"/>
                             <constraint firstItem="qNn-RZ-uFd" firstAttribute="top" secondItem="kYd-7n-q7O" secondAttribute="bottom" constant="15" id="4in-Ba-DPQ"/>
                             <constraint firstItem="19s-dg-ks5" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="113" id="BS4-Zi-qc1"/>
@@ -128,10 +129,12 @@
                             <constraint firstItem="19s-dg-ks5" firstAttribute="top" secondItem="802-ET-bah" secondAttribute="bottom" constant="30" id="eGu-mD-JhE"/>
                             <constraint firstItem="tpH-WQ-6zR" firstAttribute="top" secondItem="EPM-PK-WSn" secondAttribute="bottom" constant="15" id="hke-Nf-fR9"/>
                             <constraint firstItem="tpH-WQ-6zR" firstAttribute="top" secondItem="61C-8r-iK3" secondAttribute="bottom" constant="100" id="ijs-uV-fbv"/>
+                            <constraint firstItem="tpH-WQ-6zR" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="58" id="kYT-7S-uSd"/>
                             <constraint firstItem="0Ko-TI-mJe" firstAttribute="trailing" secondItem="19s-dg-ks5" secondAttribute="trailing" constant="113" id="keA-3J-N7p"/>
                             <constraint firstItem="61C-8r-iK3" firstAttribute="top" secondItem="0Ko-TI-mJe" secondAttribute="top" constant="100" id="lMw-ku-yYJ"/>
                             <constraint firstItem="qNn-RZ-uFd" firstAttribute="top" secondItem="kYd-7n-q7O" secondAttribute="bottom" constant="15" id="rL7-Vr-qE5"/>
                             <constraint firstItem="0Ko-TI-mJe" firstAttribute="trailing" secondItem="Ie2-Pz-rNe" secondAttribute="trailing" constant="86" id="tAp-hv-ofQ"/>
+                            <constraint firstItem="19s-dg-ks5" firstAttribute="centerX" secondItem="xD3-sL-NvF" secondAttribute="centerX" id="teU-gn-1Z1"/>
                             <constraint firstItem="59H-6A-dzu" firstAttribute="top" secondItem="qNn-RZ-uFd" secondAttribute="bottom" constant="60" id="u6L-ru-YQr"/>
                             <constraint firstItem="802-ET-bah" firstAttribute="top" secondItem="59H-6A-dzu" secondAttribute="bottom" constant="80" id="zdu-wk-ski"/>
                         </constraints>
