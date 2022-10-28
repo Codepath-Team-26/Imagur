@@ -95,7 +95,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="landing" translatesAutoresizingMaskIntoConstraints="NO" id="2YQ-v0-fsM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="2YQ-v0-fsM">
                                 <rect key="frame" x="71" y="122" width="249.99999999999994" height="99.999999999999773"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="UXX-6J-t3C"/>
@@ -301,7 +301,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="landing" width="1706.6666259765625" height="582"/>
+        <image name="Launch" width="293.33334350585938" height="100"/>
         <image name="photo.fill" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

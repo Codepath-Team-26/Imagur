@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "landing.png",
+      "filename" : "launch 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "landing 1.png",
+      "filename" : "launch 2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "landing 2.png",
+      "filename" : "launch 3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
