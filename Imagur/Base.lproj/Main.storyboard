@@ -95,6 +95,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="landing" translatesAutoresizingMaskIntoConstraints="NO" id="2YQ-v0-fsM">
+                                <rect key="frame" x="71" y="122" width="249.99999999999994" height="99.999999999999773"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="UXX-6J-t3C"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Ko-TI-mJe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,10 +110,12 @@
                             <constraint firstItem="802-ET-bah" firstAttribute="centerX" secondItem="xD3-sL-NvF" secondAttribute="centerX" id="3jE-74-hzc"/>
                             <constraint firstItem="kYd-7n-q7O" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="58" id="3nA-1E-jIN"/>
                             <constraint firstItem="qNn-RZ-uFd" firstAttribute="top" secondItem="kYd-7n-q7O" secondAttribute="bottom" constant="15" id="4in-Ba-DPQ"/>
+                            <constraint firstItem="2YQ-v0-fsM" firstAttribute="top" secondItem="0Ko-TI-mJe" secondAttribute="top" constant="75" id="A3o-PX-ISA"/>
                             <constraint firstItem="19s-dg-ks5" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="113" id="BS4-Zi-qc1"/>
                             <constraint firstItem="kYd-7n-q7O" firstAttribute="top" secondItem="tpH-WQ-6zR" secondAttribute="bottom" constant="60" id="EVw-8z-9LB"/>
                             <constraint firstItem="qNn-RZ-uFd" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="58" id="Qfu-O7-mCG"/>
                             <constraint firstItem="Ie2-Pz-rNe" firstAttribute="top" secondItem="qNn-RZ-uFd" secondAttribute="bottom" constant="60" id="VcT-nv-brl"/>
+                            <constraint firstItem="2YQ-v0-fsM" firstAttribute="centerX" secondItem="xD3-sL-NvF" secondAttribute="centerX" id="Y1j-Vj-ESb"/>
                             <constraint firstItem="EPM-PK-WSn" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="58" id="btv-v6-3DQ"/>
                             <constraint firstItem="59H-6A-dzu" firstAttribute="leading" secondItem="0Ko-TI-mJe" secondAttribute="leading" constant="85" id="cUk-oa-FJ0"/>
                             <constraint firstItem="19s-dg-ks5" firstAttribute="top" secondItem="802-ET-bah" secondAttribute="bottom" constant="30" id="eGu-mD-JhE"/>
@@ -293,6 +301,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="landing" width="1706.6666259765625" height="582"/>
         <image name="photo.fill" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
