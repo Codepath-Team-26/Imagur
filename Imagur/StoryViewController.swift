@@ -2,11 +2,11 @@
 //  StoryViewController.swift
 //  Imagur
 //
-//  Created by Asarel Castellanos on 10/27/22.
+//  Created by Asarel Castellanos on 10/28/22.
 //
 
 import UIKit
-
+import Parse
 class StoryViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -25,5 +25,13 @@ class StoryViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func onLogOut(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
+        delegate.window?.rootViewController = loginViewController
+    }
+    
 }

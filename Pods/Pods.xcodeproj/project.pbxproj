@@ -157,7 +157,7 @@
 		49DEE8439026E2294FC15327D16B1EBE /* PFACLState.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C4709C0DCF62B6443FFE3AF715C51D /* PFACLState.m */; };
 		49E617A134E4E5D48A49400DBE8E1FB9 /* PFAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 560FA055D4814AD0503E00F1C8E61646 /* PFAssert.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4A40A8D31116AF369C010DBF231FCC7D /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FECDD8E03BC5A691A58D84796ED0521B /* BFTask.m */; };
-		4A40D27059D49C5A67B9AEE47993B364 /* Parse-Parse in Resources */ = {isa = PBXBuildFile; fileRef = ED7ADA84A7005589821D254428CD2D26 /* Parse-Parse */; };
+		4A40D27059D49C5A67B9AEE47993B364 /* Parse.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED7ADA84A7005589821D254428CD2D26 /* Parse.bundle */; };
 		4A47E0FDAAACCD45F7DCE5CA94B37B84 /* PFSQLiteStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7276357E6AFDC4E6D33B7CCEB92CDE6F /* PFSQLiteStatement.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4A4E6BE10B177250921F177FE122665B /* PFPropertyInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6931A8CB31209B4B390EB5D40E9402CE /* PFPropertyInfo_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4B19D3D3CDD62005D6770B4CB58A5102 /* PFQueryController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE056F9C4BB7AAADC8DF005C6EAD3493 /* PFQueryController.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -583,7 +583,7 @@
 		05250BF6A68FC1BC25E5958B54DE1C55 /* PFUser+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PFUser+Deprecated.h"; path = "Parse/Parse/PFUser+Deprecated.h"; sourceTree = "<group>"; };
 		054A29A577462F74AFF26B21138B91EA /* PFObjectFilePersistenceController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFObjectFilePersistenceController.h; path = Parse/Parse/Internal/Object/FilePersistence/PFObjectFilePersistenceController.h; sourceTree = "<group>"; };
 		056B691F0108280585793EDB70D7D89F /* PFGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFGeoPoint.h; path = Parse/Parse/PFGeoPoint.h; sourceTree = "<group>"; };
-		0652F2476C7C87C6C0F6CB68072EA25F /* Parse */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parse; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0652F2476C7C87C6C0F6CB68072EA25F /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B1ECF125FE85CF1D40C9B56EE324D7 /* PFPushState_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPushState_Private.h; path = Parse/Parse/Internal/Push/State/PFPushState_Private.h; sourceTree = "<group>"; };
 		0708DE0E5990EF2B106A31E6DF4EF9D8 /* PFRESTObjectBatchCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRESTObjectBatchCommand.h; path = Parse/Parse/Internal/Commands/PFRESTObjectBatchCommand.h; sourceTree = "<group>"; };
 		079B12611CDC2159408DD7ACC70964CC /* PFRESTConfigCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFRESTConfigCommand.m; path = Parse/Parse/Internal/Commands/PFRESTConfigCommand.m; sourceTree = "<group>"; };
@@ -767,7 +767,7 @@
 		5B35E7644A5E993128353ADA4D7AE7D4 /* PFUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFUser.m; path = Parse/Parse/PFUser.m; sourceTree = "<group>"; };
 		5B9AE2BFB1E6BA60F2439821A5F576D5 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
 		5D6A9EA363267D80940BDE41A74F29AF /* Parse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parse.modulemap; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8B250EC4FF4DC491095CBE12BDA685 /* PFHTTPURLRequestConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFHTTPURLRequestConstructor.m; path = Parse/Parse/Internal/HTTPRequest/PFHTTPURLRequestConstructor.m; sourceTree = "<group>"; };
 		5DD16F88BF651D5BD492531F4AC5F1F5 /* PFInstallationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFInstallationPrivate.h; path = Parse/Parse/Internal/Installation/PFInstallationPrivate.h; sourceTree = "<group>"; };
 		5E7BCCA385664271BF42989F1E55DF9B /* Pods-Imagur-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Imagur-umbrella.h"; sourceTree = "<group>"; };
@@ -970,7 +970,7 @@
 		C6D77CBF588A4C315F995061604D33B9 /* PFObject+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PFObject+Deprecated.h"; path = "Parse/Parse/PFObject+Deprecated.h"; sourceTree = "<group>"; };
 		C7B67495F9C4E69F9C6C9D4AA85B363D /* Bolts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bolts-Info.plist"; sourceTree = "<group>"; };
 		C7F18DAA045B706F30C5F7B8BE489402 /* ParseClientConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParseClientConfiguration.m; path = Parse/Parse/ParseClientConfiguration.m; sourceTree = "<group>"; };
-		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E02C7CACC76CF4A0D6F03A232EAC1B /* PFURLSessionCommandRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFURLSessionCommandRunner.h; path = Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner.h; sourceTree = "<group>"; };
 		CA0D71C2AFE570434170FABE556BB8BF /* PFLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLocationManager.h; path = Parse/Parse/Internal/PFLocationManager.h; sourceTree = "<group>"; };
 		CA7604E72FFE9184C9FDBB2246BA61FC /* PFInternalUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFInternalUtils.h; path = Parse/Parse/Internal/PFInternalUtils.h; sourceTree = "<group>"; };
@@ -1020,7 +1020,7 @@
 		DF15F228BD17CAB56D4BCEEB32243D95 /* PFFileUploadController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFFileUploadController.h; path = Parse/Parse/PFFileUploadController.h; sourceTree = "<group>"; };
 		DF244FFAFBB439EF86B5BDB0C9007D83 /* PFRESTPushCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFRESTPushCommand.m; path = Parse/Parse/Internal/Commands/PFRESTPushCommand.m; sourceTree = "<group>"; };
 		E003326D5D0741369D49E2256775C077 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
-		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLiteSwift; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EE8767737FC6162D6CAD2A6D3BAAD7 /* PFJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFJSONSerialization.m; path = Parse/Parse/Internal/PFJSONSerialization.m; sourceTree = "<group>"; };
 		E1FB6680DCA8F35AD68F32577BA7B7DC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		E1FC4CCCFFB50514B6702C43E9229682 /* PFFieldOperationDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFFieldOperationDecoder.h; path = Parse/Parse/Internal/FieldOperation/PFFieldOperationDecoder.h; sourceTree = "<group>"; };
@@ -1044,7 +1044,7 @@
 		EB8D5EB5A27CAF715AE66242E2625823 /* PFRESTCommand_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRESTCommand_Private.h; path = Parse/Parse/Internal/Commands/PFRESTCommand_Private.h; sourceTree = "<group>"; };
 		EBB87667B09167F2E14DF1AEC5628711 /* PFUserState_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFUserState_Private.h; path = Parse/Parse/Internal/User/State/PFUserState_Private.h; sourceTree = "<group>"; };
 		ECFFAF2E8F506F09FE96CB633D990786 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
-		ED7ADA84A7005589821D254428CD2D26 /* Parse-Parse */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Parse-Parse"; path = Parse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7ADA84A7005589821D254428CD2D26 /* Parse.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Parse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFB5CAD8166F6A34B6B96BD53CA58BD /* PFObjectState_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFObjectState_Private.h; path = Parse/Parse/Internal/Object/State/PFObjectState_Private.h; sourceTree = "<group>"; };
 		EE32C918234DB4B67A64768A49722E33 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
 		EE9A704A3730DFDD2F7BA9322AA170B8 /* PFDefaultACLController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDefaultACLController.h; path = Parse/Parse/Internal/ACL/DefaultACLController/PFDefaultACLController.h; sourceTree = "<group>"; };
@@ -1065,7 +1065,7 @@
 		F7181ACB20FFE570861BE53EEA7B5612 /* TensorFlowLiteSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-umbrella.h"; sourceTree = "<group>"; };
 		F798D82B9735B9F24D1E4D5892BE21F3 /* Parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parse.release.xcconfig; sourceTree = "<group>"; };
 		F7D807BA90CC8076929C01310E62FBD7 /* PFQuery+Synchronous.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PFQuery+Synchronous.h"; path = "Parse/Parse/PFQuery+Synchronous.h"; sourceTree = "<group>"; };
-		F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bolts; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A42997A40CE5755B4F2BFB4AFD8BB6 /* PFDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDecoder.h; path = Parse/Parse/PFDecoder.h; sourceTree = "<group>"; };
 		F8ADA2220B03BF604297633C3912BC7D /* PFFileController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFFileController.m; path = Parse/Parse/Internal/File/Controller/PFFileController.m; sourceTree = "<group>"; };
 		F8EA6A9CD90757B23F522C7EBFB873F9 /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bolts.modulemap; sourceTree = "<group>"; };
@@ -1859,13 +1859,13 @@
 		FD8C63AD84DB3063CB0098099EC60D0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage */,
-				F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts */,
-				0652F2476C7C87C6C0F6CB68072EA25F /* Parse */,
-				ED7ADA84A7005589821D254428CD2D26 /* Parse-Parse */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */,
+				F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts.framework */,
+				0652F2476C7C87C6C0F6CB68072EA25F /* Parse.framework */,
+				ED7ADA84A7005589821D254428CD2D26 /* Parse.bundle */,
 				4BC4C19F9006D8EFA6EF0055710356E6 /* Pods-Imagur */,
-				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */,
+				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2169,7 +2169,7 @@
 			);
 			name = TensorFlowLiteSwift;
 			productName = TensorFlowLite;
-			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */;
+			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		42465A188431886AB035275F049824D3 /* Bolts */ = {
@@ -2187,7 +2187,7 @@
 			);
 			name = Bolts;
 			productName = Bolts;
-			productReference = F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts */;
+			productReference = F84B331B5D6AAF1548DD1BB004AE5C2A /* Bolts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		56F95A62688C701C9B5C42D3E278F888 /* Pods-Imagur */ = {
@@ -2231,7 +2231,7 @@
 			);
 			name = Parse;
 			productName = Parse;
-			productReference = 0652F2476C7C87C6C0F6CB68072EA25F /* Parse */;
+			productReference = 0652F2476C7C87C6C0F6CB68072EA25F /* Parse.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */ = {
@@ -2250,7 +2250,7 @@
 			);
 			name = AlamofireImage;
 			productName = AlamofireImage;
-			productReference = C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage */;
+			productReference = C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -2268,7 +2268,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAFFB8E885E2EDFD55062DE694143593 /* Parse-Parse */ = {
@@ -2285,7 +2285,7 @@
 			);
 			name = "Parse-Parse";
 			productName = Parse;
-			productReference = ED7ADA84A7005589821D254428CD2D26 /* Parse-Parse */;
+			productReference = ED7ADA84A7005589821D254428CD2D26 /* Parse.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -2295,7 +2295,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -2363,7 +2363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A40D27059D49C5A67B9AEE47993B364 /* Parse-Parse in Resources */,
+				4A40D27059D49C5A67B9AEE47993B364 /* Parse.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2750,7 +2750,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2786,7 +2786,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2842,6 +2842,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2885,7 +2886,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2921,7 +2922,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3002,7 +3003,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Parse";
 				IBSC_MODULE = Parse;
 				INFOPLIST_FILE = "Target Support Files/Parse/ResourceBundle-Parse-Parse-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = Parse;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3065,7 +3066,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3116,7 +3117,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Bolts/Bolts-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3143,7 +3144,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Parse";
 				IBSC_MODULE = Parse;
 				INFOPLIST_FILE = "Target Support Files/Parse/ResourceBundle-Parse-Parse-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = Parse;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3167,7 +3168,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Parse/Parse-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Parse/Parse-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3202,7 +3203,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Bolts/Bolts-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3256,6 +3257,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -3302,7 +3304,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Parse/Parse-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Parse/Parse-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3337,7 +3339,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
