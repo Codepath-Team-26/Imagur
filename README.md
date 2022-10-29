@@ -85,11 +85,12 @@ When we combine them we will get a final stylized image:
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
+**Navigation**
 
 - Studio Page (Feed)
-- Camera (Create New Styled Image)
-- Profile
+- Camera Page (Upload or Take Photo)
+- Style Page (Select from options)
+- Save Image (Upload to Database)
 
 **Flow Navigation** (Screen to Screen)
 
