@@ -49,11 +49,12 @@ When we combine them we will get a final stylized image:
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-- User creates user and logs in to see their saved images.
-- User takes a photo or uploads one from camera feed to be styled.
-- User selects from a predefined list of styles to apply to their image.
-- User can upload their styled image to a database to be saved.
+- [x] User creates user and logs in to see their saved images.
+- [ ] User sees feed of their created images.
+- [x] User takes a photo or uploads one from camera feed to be styled.
+- [ ] User selects from a predefined list of styles to apply to their image.
+- [ ] User sees their image become a styled image based on their selected style.
+- [ ] User can upload their styled image to a database to be saved.
 
 **Optional Nice-to-have Stories**
 
@@ -84,11 +85,12 @@ When we combine them we will get a final stylized image:
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
+**Navigation**
 
 - Studio Page (Feed)
-- Camera (Create New Styled Image)
-- Profile
+- Camera Page (Upload or Take Photo)
+- Style Page (Select from options)
+- Save Image (Upload to Database)
 
 **Flow Navigation** (Screen to Screen)
 
