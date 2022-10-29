@@ -7,6 +7,12 @@
 4. [Schema](#schema)
 
 ## Overview
+### Progress (after Milestone 1)
+<div align="left">
+    <img src="./imagur.gif" width="200"/>
+</div>
+
+
 ### Description
 
 We are building an app that allows users to upload images and created styled images that can be shared.
