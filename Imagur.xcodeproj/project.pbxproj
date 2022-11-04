@@ -15,6 +15,9 @@
 		68CA71CE2906437E00D9327E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA71CD2906437E00D9327E /* LoginViewController.swift */; };
 		68EC75A2290CB1DC0059788E /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC75A1290CB1DC0059788E /* StoryViewController.swift */; };
 		68EC75A4290CBA4C0059788E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC75A3290CBA4C0059788E /* CameraViewController.swift */; };
+		695BE3DC2914C61A000603A8 /* CostumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BE3DB2914C61A000603A8 /* CostumView.swift */; };
+		69E191912914EF6A00064652 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E191902914EF6A00064652 /* CustomTabBarViewController.swift */; };
+		69E191932915043700064652 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E191922915043700064652 /* CustomImageView.swift */; };
 		EE8B2C5ED931E87053567CE8 /* Pods_Imagur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BA30D9AE06F11E468E4B4E /* Pods_Imagur.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		68CA71CD2906437E00D9327E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		68EC75A1290CB1DC0059788E /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		68EC75A3290CBA4C0059788E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		695BE3DB2914C61A000603A8 /* CostumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumView.swift; sourceTree = "<group>"; };
+		69E191902914EF6A00064652 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		69E191922915043700064652 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		74BA30D9AE06F11E468E4B4E /* Pods_Imagur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imagur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B1C60A1593855980D5DE9D /* Pods-Imagur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imagur.debug.xcconfig"; path = "Target Support Files/Pods-Imagur/Pods-Imagur.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,17 +81,36 @@
 		686E1A752904A7F3001D1E3D /* Imagur */ = {
 			isa = PBXGroup;
 			children = (
+				69E1919529150D5100064652 /* ViewControllers */,
+				69E1919429150C7500064652 /* ViewExtentions */,
 				686E1A762904A7F3001D1E3D /* AppDelegate.swift */,
 				686E1A782904A7F4001D1E3D /* SceneDelegate.swift */,
 				686E1A7C2904A7F4001D1E3D /* Main.storyboard */,
 				686E1A7F2904A7F5001D1E3D /* Assets.xcassets */,
 				686E1A812904A7F5001D1E3D /* LaunchScreen.storyboard */,
 				686E1A842904A7F5001D1E3D /* Info.plist */,
+			);
+			path = Imagur;
+			sourceTree = "<group>";
+		};
+		69E1919429150C7500064652 /* ViewExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				69E191922915043700064652 /* CustomImageView.swift */,
+				695BE3DB2914C61A000603A8 /* CostumView.swift */,
+				69E191902914EF6A00064652 /* CustomTabBarViewController.swift */,
+			);
+			path = ViewExtentions;
+			sourceTree = "<group>";
+		};
+		69E1919529150D5100064652 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				68CA71CD2906437E00D9327E /* LoginViewController.swift */,
 				68EC75A1290CB1DC0059788E /* StoryViewController.swift */,
 				68EC75A3290CBA4C0059788E /* CameraViewController.swift */,
 			);
-			path = Imagur;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		73A70A4150AC8C2FC1A8FFBF /* Pods */ = {
@@ -215,8 +240,11 @@
 				68EC75A2290CB1DC0059788E /* StoryViewController.swift in Sources */,
 				68EC75A4290CBA4C0059788E /* CameraViewController.swift in Sources */,
 				68CA71CE2906437E00D9327E /* LoginViewController.swift in Sources */,
+				695BE3DC2914C61A000603A8 /* CostumView.swift in Sources */,
+				69E191912914EF6A00064652 /* CustomTabBarViewController.swift in Sources */,
 				686E1A772904A7F3001D1E3D /* AppDelegate.swift in Sources */,
 				686E1A792904A7F4001D1E3D /* SceneDelegate.swift in Sources */,
+				69E191932915043700064652 /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
