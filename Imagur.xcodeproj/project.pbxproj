@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B3CE892914C49400416437 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3CE882914C49400416437 /* SignUpViewController.swift */; };
 		686E1A772904A7F3001D1E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E1A762904A7F3001D1E3D /* AppDelegate.swift */; };
 		686E1A792904A7F4001D1E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E1A782904A7F4001D1E3D /* SceneDelegate.swift */; };
 		686E1A7E2904A7F4001D1E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E1A7C2904A7F4001D1E3D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B3CE882914C49400416437 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1DC96BEBCEC69D542BED3A3A /* Pods-Imagur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imagur.release.xcconfig"; path = "Target Support Files/Pods-Imagur/Pods-Imagur.release.xcconfig"; sourceTree = "<group>"; };
 		686E1A732904A7F3001D1E3D /* Imagur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imagur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686E1A762904A7F3001D1E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				686E1A762904A7F3001D1E3D /* AppDelegate.swift */,
 				686E1A782904A7F4001D1E3D /* SceneDelegate.swift */,
 				686E1A7C2904A7F4001D1E3D /* Main.storyboard */,
+				12B3CE882914C49400416437 /* SignUpViewController.swift */,
 				686E1A7F2904A7F5001D1E3D /* Assets.xcassets */,
 				686E1A812904A7F5001D1E3D /* LaunchScreen.storyboard */,
 				686E1A842904A7F5001D1E3D /* Info.plist */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B3CE892914C49400416437 /* SignUpViewController.swift in Sources */,
 				68EC75A2290CB1DC0059788E /* StoryViewController.swift in Sources */,
 				68EC75A4290CBA4C0059788E /* CameraViewController.swift in Sources */,
 				68CA71CE2906437E00D9327E /* LoginViewController.swift in Sources */,
