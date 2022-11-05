@@ -15,6 +15,8 @@
 		68CA71CE2906437E00D9327E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA71CD2906437E00D9327E /* LoginViewController.swift */; };
 		68EC75A2290CB1DC0059788E /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC75A1290CB1DC0059788E /* StoryViewController.swift */; };
 		68EC75A4290CBA4C0059788E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC75A3290CBA4C0059788E /* CameraViewController.swift */; };
+		6933FB8D291611F600C82BB0 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933FB8C291611F600C82BB0 /* CustomButtonView.swift */; };
+		6933FB8F29161F3700C82BB0 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933FB8E29161F3700C82BB0 /* CustomTextFieldView.swift */; };
 		695BE3DC2914C61A000603A8 /* CostumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BE3DB2914C61A000603A8 /* CostumView.swift */; };
 		69E191912914EF6A00064652 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E191902914EF6A00064652 /* CustomTabBarViewController.swift */; };
 		69E191932915043700064652 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E191922915043700064652 /* CustomImageView.swift */; };
@@ -33,6 +35,8 @@
 		68CA71CD2906437E00D9327E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		68EC75A1290CB1DC0059788E /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		68EC75A3290CBA4C0059788E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6933FB8C291611F600C82BB0 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		6933FB8E29161F3700C82BB0 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 		695BE3DB2914C61A000603A8 /* CostumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumView.swift; sourceTree = "<group>"; };
 		69E191902914EF6A00064652 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		69E191922915043700064652 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				69E191922915043700064652 /* CustomImageView.swift */,
 				695BE3DB2914C61A000603A8 /* CostumView.swift */,
 				69E191902914EF6A00064652 /* CustomTabBarViewController.swift */,
+				6933FB8C291611F600C82BB0 /* CustomButtonView.swift */,
+				6933FB8E29161F3700C82BB0 /* CustomTextFieldView.swift */,
 			);
 			path = ViewExtentions;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 				68EC75A2290CB1DC0059788E /* StoryViewController.swift in Sources */,
 				68EC75A4290CBA4C0059788E /* CameraViewController.swift in Sources */,
 				68CA71CE2906437E00D9327E /* LoginViewController.swift in Sources */,
+				6933FB8F29161F3700C82BB0 /* CustomTextFieldView.swift in Sources */,
+				6933FB8D291611F600C82BB0 /* CustomButtonView.swift in Sources */,
 				695BE3DC2914C61A000603A8 /* CostumView.swift in Sources */,
 				69E191912914EF6A00064652 /* CustomTabBarViewController.swift in Sources */,
 				686E1A772904A7F3001D1E3D /* AppDelegate.swift in Sources */,

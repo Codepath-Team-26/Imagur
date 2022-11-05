@@ -25,13 +25,7 @@ class StoryViewController: UIViewController {
         self.photoCollectionView.dataSource = self
         userAvator.cornerRadius = 25
         userAvator.layer.masksToBounds = true
-        
-        let url = URL(string: "http://i.imgur.com/w5rkSIj.jpg")!
-        let data = try? Data(contentsOf: url)
-        if let imageData = data {
-            let image = UIImage(data: imageData)
-        }
-       
+
     }
     
     @IBAction func onLogOut(_ sender: Any) {
