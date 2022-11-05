@@ -7,6 +7,12 @@
 4. [Schema](#schema)
 
 ## Overview
+### Progress (after Milestone 2)
+<div align="left">
+    <img src="./updated_work.gif" width="200"/>
+</div>
+
+
 ### Progress (after Milestone 1)
 <div align="left">
     <img src="./imagur.gif" width="200"/>
@@ -50,7 +56,7 @@ When we combine them we will get a final stylized image:
 
 **Required Must-have Stories**
 - [x] User creates user and logs in to see their saved images.
-- [ ] User sees feed of their created images.
+- [x] User sees feed of their created images.
 - [x] User takes a photo or uploads one from camera feed to be styled.
 - [ ] User selects from a predefined list of styles to apply to their image.
 - [ ] User sees their image become a styled image based on their selected style.
