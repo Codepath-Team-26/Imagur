@@ -9,7 +9,7 @@
 ## Overview
 ### Progress (after Milestone 2)
 <div align="left">
-    <img src="./updated_work.gif" width="200"/>
+    <img src="./udpated_work.gif" width="200"/>
 </div>
 
 
